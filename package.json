@@ -1,0 +1,25 @@
+{
+  "name": "utils-ts-fe",
+  "version": "1.0.0",
+  "description": "前端工具包",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://git.jc-ai.cn/asset/newasset/front-end/asset-utils-fe",
+  "repository": {
+    "type": "git",
+    "url": "https://git.jc-ai.cn/asset/newasset/front-end/asset-utils-fe"
+  },
+  "scripts": {
+    "build-ts": "tsc -p tsconfig.json",
+    "build:publish": "npm run build-ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.4"
+  }
+}
